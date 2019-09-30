@@ -1,5 +1,8 @@
 body {
   font-size: 16px;
+  padding: 0;
+  color: #333;
+  margin: 0;
 }
 nav{
   background-color: black;
@@ -16,6 +19,14 @@ nav a{
 nav a:hover, nav a:active  {
   color: hotpink;
   text-decoration: underline;
+}
+
+h3{
+  font-size: 28px;
+  background: -webkit-linear-gradient(#00BFFF, #FFB6C1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 
 h1 h2 h3{
