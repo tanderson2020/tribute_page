@@ -1,0 +1,20 @@
+topgraphy in the heading
+
+body heading spacing closer to paragraph
+
+float second image
+
+background section for quick facts, play around w angle
+
+link in body, style the link (color, underline)
+icons and google font
+
+at different screen sizes, media query or background-image in css
+
+look up how to make page responsive html and css
+
+min width, in regular code no float and in the media query ill put the float
+
+declare grid on the outer container and the children of that grid will become grid items
+
+for the splash header, that container will have two container one for text and one for image (display-grid, grid-template)
