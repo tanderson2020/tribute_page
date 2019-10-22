@@ -73,8 +73,7 @@ header {
 .container_quick_facts{
   color: black;
   font-size: 18px;
-  padding: 3em;
-  padding-bottom: 21%;
+  padding: 2em;
   position: relative;
   height: 220px;
   background: rgb(238,174,202);
@@ -137,8 +136,15 @@ footer {
   position: relative;
   display: flex;
   justify-content: space-between;
-
+  background-image: url(../img/Rosaparks.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-size: contain;
 }
+
  header::after{
   filter: drop-shadow(5px 5px 5px dodgerblue);
 }
@@ -154,6 +160,10 @@ footer {
 }
 
 .rosa-img{
+  padding: 10em 0;
+}
+
+/* .rosa-img{
   opacity: 1;
   display: flex;
   height: auto;
@@ -167,14 +177,14 @@ footer {
   max-width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-}
+} */
 
 .middle{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 88%;
+  left: 91%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -207,30 +217,25 @@ a.info-link:hover, a.info-link:active{
 }
 
 /* Trying to add the grid here but it doesnt work */
-
-/* article{
+ article{
   display: grid;
   grid-gap: 0.25em;
   grid-template-areas:
-  "who-grid who-grid who-grid"
-  "accomp accomp accomp"
-  "accomp accomp figure-1"
-  "accomp accomp accomp"
-  "figure-2 accomp accomp"
-  "accomp accomp accomp";
+  "who-grid who-grid"
+  "accomp1 accomp1"
+  "accomp2 accomp2"
 }
 .who-grid{grid-area:who-grid;}
-.accomp{grid-area: accomp;}
-.figure-1{grid-area: figure-1;}
-.figure-2{grid-area: figure-2;}
+.accomp1{grid-area: accomp1;}
+.accomp2{grid-area: accomp2;}
 .quick{grid-area: quick;}
 
-@@media screen and (min-width: 767px) {
+@media screen and (min-width: 767px) {
   article{
     grid-template-areas:
     "who-grid"
-    "accomp"
-    "figure-1"
-    "figure-2"
+    "accomp1"
+    "accomp2"
     "quick";
-  } */
+  } 
+}
